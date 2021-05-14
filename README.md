@@ -30,7 +30,8 @@ _Where it can be applied ? _
 
 _Advantages :_
 
-	1. Reusability  of existing code/data
+  1. Reusability of existing interfaces
+	
   2. Adaptability as per client need. Adaptor class can be modified  without modifying existing code 
 
 _Drawbacks :_
