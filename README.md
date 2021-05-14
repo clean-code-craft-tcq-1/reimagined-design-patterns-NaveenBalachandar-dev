@@ -57,9 +57,8 @@ _Where it can be applied ? __
 
 _Advantages :_
 
-    1.  Instant automatic notification all  dependent objects  
-    2.  Establish relations between objects at runtime.
-
+   1.  Instant automatic notification all  dependent objects  
+   2.  Establish relations between objects at runtime.
 _Drawback :__
     1.  Notification happens in random order 
     2.  Information leakage due to explicit register option for subscription 
