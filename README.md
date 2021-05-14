@@ -8,7 +8,7 @@ Give a summary description of Four design patterns that you choose from the foll
 - Write a short summary for each of the four patterns, about half a page for each pattern (rather less than more). 
 
 > Do not add diagrams, and do not try to give a complete description of the patterns as found in the books. Rather think of how you would explain the essential ideas of these patterns in a few sentences to a colleague while drinking coffee.
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 **Adapter**
 
 _Summary : _
@@ -31,7 +31,6 @@ _Where it can be applied ? _
 _Advantages :_
 
   1. Reusability of existing interfaces
-	
   2. Adaptability as per client need. Adaptor class can be modified  without modifying existing code 
 
 _Drawbacks :_
@@ -58,9 +57,9 @@ _Where it can be applied ? __
 
 _Advantages :_
 
-  1. Instant automatic notification all  dependent objects  
-  2. Establish relations between objects at runtime.
-_
+    1.  Instant automatic notification all  dependent objects  
+    2.  Establish relations between objects at runtime.
+
 _Drawback :__
     1.  Notification happens in random order 
     2.  Information leakage due to explicit register option for subscription 
@@ -68,6 +67,7 @@ _Drawback :__
 **Mediator **
 
 _Summary : _
+
 The behavioral pattern which aims at avoid direct communication between objects by making them communicate through the mediator object. This  pattern reduces communication complexity between multiple objects and enables easy maintenance 
 
 _A real world example :__
@@ -86,5 +86,28 @@ _Advantages :_
  
 _Drawback :_
   1. The mediator pattern trades complexity of interaction for complexity in  
-     the mediator. sometimes it may be case mediator itself hard to 
-     maintain.
+     the mediator. sometimes it may be case mediator itself hard to maintain.
+     
+**Proxy**
+
+_Summary : _
+ 
+Proxy is a structural design pattern that controls access to the original object being a substitute or alternative. This provides real functionality of another class
+
+_A real world example :_
+
+In day today life, lot of proxy we come across .For example ,instead of pay/withdraw amount from bank account UPI platforms Gpay or Paytm is used .Here UPI interfaces acts as a proxy.
+Another example is in office ,We used to access Lab PC's via remote using virtual proxy  
+
+_Where it can be applied ? _
+
+Proxy pattern is used when we need to create a wrapper to cover the main object’s complexity from the client.
+
+_Advantages :_
+
+  1. The proxy works even if the service object isn’t ready or is not available.
+  2. Ability to modify proxy without alteration of actual component/server
+
+_Drawback :_
+  1. The response from the service might be slow. Like accessing server via  
+     remote PC 
