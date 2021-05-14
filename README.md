@@ -64,3 +64,27 @@ _
 _Drawback :__
     1.  Notification happens in random order 
     2.  Information leakage due to explicit register option for subscription 
+
+**Mediator **
+
+_Summary : _
+The behavioral pattern which aims at avoid direct communication between objects by making them communicate through the mediator object. This  pattern reduces communication complexity between multiple objects and enables easy maintenance 
+
+_A real world example :__
+
+Air traffic controller is a great example of mediator pattern where the airport control room works as a mediator for communication between different flights. Mediator works as a router between objects and it can have it’s own logic to provide way of communication.
+
+_Where it can be applied ? _
+
+In case the system components are tightly-coupled with each other  and requires  higher maintainability  Mediator pattern can be applied which acts as a  mediator between objects for communication and reduces complexity involved. 
+
+_Advantages :_
+
+  1. Coupling between various components of a program can be reduced 
+  2. Makes the code reusable
+  3. Easier maintenance between objects
+ 
+_Drawback :_
+  1. The mediator pattern trades complexity of interaction for complexity in  
+     the mediator. This can make the mediator itself a monolith that’s hard to 
+     maintain.
