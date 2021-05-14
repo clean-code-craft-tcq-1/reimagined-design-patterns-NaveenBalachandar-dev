@@ -86,5 +86,5 @@ _Advantages :_
  
 _Drawback :_
   1. The mediator pattern trades complexity of interaction for complexity in  
-     the mediator. This can make the mediator itself a monolith that’s hard to 
+     the mediator. sometimes it may be case mediator itself hard to 
      maintain.
