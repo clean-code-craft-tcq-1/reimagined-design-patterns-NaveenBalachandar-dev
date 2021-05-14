@@ -39,3 +39,28 @@ _Drawbacks :_
   1. Increase in code size and complexity 
   2. Many adaptions in Adaptor class  might required to meet requirement
 
+**Observer **
+
+_Summary : _
+
+A behavioral design pattern that helps achieve notification to all observers in case of object is modified. An object which performs notification is  publisher and objects that tracks occurrence of changes in publisher object are known as subscribers.
+ 
+_A real world example :_
+
+Simple example which we are using in day today life is YouTube  channel subscription.  
+As stated above ,the concept of observer design pattern is whenever there is an occurrence of changes  respective subscribers needs to be notified.
+
+In you tube channel, whenever a new video is posted ,the users who subscribed channel with notifications  gets notified Immediately . Here the YouTube channel is Publisher and all users who subscribed are subscribers. The same example applies for all SW updates ,Apps ,Etc., 
+
+_Where it can be applied ? __
+
+ whenever publisher needs to notify all subscribers to get the its updates  .
+
+_Advantages :_
+
+  1. Instant automatic notification all  dependent objects  
+  2. Establish relations between objects at runtime.
+_
+_Drawback :__
+    1.  Notification happens in random order 
+    2.  Information leakage due to explicit register option for subscription 
